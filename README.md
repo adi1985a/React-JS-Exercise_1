@@ -6,11 +6,6 @@ _A modern, stylish React web application for managing, sorting, and analyzing yo
 [![CSS3](https://img.shields.io/badge/Style-CSS3-1572B6.svg?logo=css3&logoColor=white)]()
 [![Unsplash](https://img.shields.io/badge/Background-Unsplash-0099ff.svg?logo=unsplash&logoColor=white)](https://unsplash.com/)
 
-<br>
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="150">
-</p>
-<br>
 
 ## 📋 Table of Contents
 1. [Overview](#-overview)
