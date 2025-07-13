@@ -1,108 +1,141 @@
-# 🚀⚛️ My Awesome React App: Powered by Create React App ✨
-_A fantastic project bootstrapped with Create React App, ready to be built into something amazing!_
+# 📝📅 React ToDo Pro: Modern Task Manager 🇬🇧
+_A modern, stylish React web application for managing, sorting, and analyzing your daily tasks, with a beautiful blue-white-black theme and Unsplash background._
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-^18.x-61DAFB.svg?logo=react&logoColor=white)](https://reactjs.org/)
-[![Create React App](https://img.shields.io/badge/Bootstrapped_with-Create%20React%20App-09D3AC.svg?logo=createreactapp)](https://create-react-app.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-LTS-339933.svg?logo=node.js)](https://nodejs.org/)
-[![npm](https://img.shields.io/badge/npm-Package%20Manager-CB3837.svg?logo=npm)](https://www.npmjs.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Assuming MIT for your project -->
+[![CSS3](https://img.shields.io/badge/Style-CSS3-1572B6.svg?logo=css3&logoColor=white)]()
+[![Unsplash](https://img.shields.io/badge/Background-Unsplash-0099ff.svg?logo=unsplash&logoColor=white)](https://unsplash.com/)
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="150">
 </p>
 
 ## 📋 Table of Contents
-1.  [Overview](#-overview)
-2.  [Available Scripts](#-available-scripts)
-3.  [Learn More (About CRA & React)](#-learn-more-about-cra--react)
-4.  [Contributing (To This Project)](#-contributing-to-this-project)
-5.  [License (For This Project)](#-license-for-this-project)
-6.  [Author (Of This Project)](#-author-of-this-project)
+1. [Overview](#-overview)
+2. [Key Features](#-key-features)
+3. [Screenshots (Conceptual)](#-screenshots-conceptual)
+4. [System Requirements](#-system-requirements)
+5. [Installation and Setup](#️-installation-and-setup)
+6. [Application Usage](#️-application-usage)
+7. [File Structure (Expected)](#-file-structure-expected)
+8. [Technical Notes](#-technical-notes)
+9. [Contributing](#-contributing)
+10. [License](#-license)
+11. [Contact](#-contact)
 
 ## 📄 Overview
 
-This project was bootstrapped with **[Create React App](https://github.com/facebook/create-react-app)**, a powerful tool for quickly starting modern React applications. It provides a pre-configured development environment, allowing developers to focus on writing code rather than build configurations.
+**React ToDo Pro** is a modern, stylish web application built with React for managing your daily tasks. It features a beautiful blue-white-black theme, Unsplash background, and advanced task management: priorities, sorting, filtering, and more. The app is fully responsive and stores your data in the browser (localStorage).
 
-This `README.md` serves as a guide to the basic commands and resources related to a project built with CRA.
+<br>
+<p align="center">
+  <img src="screenshots/1.gif" width="80%">
+</p>
+<br>
 
-## ✨ Available Scripts
+## ✨ Key Features
 
-In the project directory, you can run the following commands:
+*   🗂️ **Navigation Menu**: Home, Tasks, About
+*   ➕ **Add, Edit, Delete Tasks**: Manage your to-dos with ease
+*   ⭐ **Task Priorities**: High, Medium, Low
+*   🔍 **Sorting & Filtering**: By priority, status, or alphabetically
+*   📊 **Task Counter**: See how many tasks are done and left
+*   🧹 **Clear Completed**: Remove all completed tasks with one click
+*   ⚠️ **Confirmation Dialogs**: For deleting and clearing tasks
+*   🎨 **Modern UI**: Blue-white-black theme, Unsplash background, responsive design
+*   💾 **Data Persistence**: Tasks are saved in your browser (localStorage)
+*   🏷️ **About Section**: Info about the app and author
+*   🌀 **Animations**: Smooth transitions for adding/removing tasks
 
-### ⚙️ `npm start`
-Runs the app in development mode.\
-Open **[http://localhost:3000](http://localhost:3000)** to view it in your browser.
+## 🖼️ Screenshots (Conceptual)
 
-The page will automatically reload when you make changes to the code.\
-You may also see any lint errors in the browser console.
+_Screenshots of: the main app view, navigation menu, task list with priorities, and about section._
 
-### 🧪 `npm test`
-Launches the test runner in interactive watch mode.\
-See the section about **[running tests](https://facebook.github.io/create-react-app/docs/running-tests)** for more information.
+<p align="center">
+  <img src="screenshots/1.jpg" width="300"/>
+  <img src="screenshots/2.jpg" width="300"/>
+  <img src="screenshots/3.jpg" width="300"/>
+  <img src="screenshots/4.jpg" width="300"/>
+  <img src="screenshots/5.jpg" width="300"/>
+  <img src="screenshots/6.jpg" width="300"/>
+  <img src="screenshots/7.jpg" width="300"/>
+  <img src="screenshots/8.jpg" width="300"/>
+  <img src="screenshots/9.jpg" width="300"/>
+  <img src="screenshots/10.jpg" width="300"/>
+  <img src="screenshots/11.jpg" width="300"/>
+  <img src="screenshots/12.jpg" width="300"/>
+</p>
 
-### 📦 `npm run build`
-Builds the app for production into the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ System Requirements
 
-The build is minified, and the filenames include hashes for caching purposes.\
-Your app is ready to be deployed!
+*   **Node.js**: v14 or higher
+*   **npm**: v6 or higher
+*   **Modern Web Browser**: Chrome, Firefox, Edge, Safari
+*   **Internet connection** (for Unsplash background)
 
-See the section about **[deployment](https://facebook.github.io/create-react-app/docs/deployment)** for more information.
+## 🛠️ Installation and Setup
 
-### 🚀 `npm run eject`
-**Note: this is a one-way operation. Once you `eject`, you cannot go back!**
+1.  **Clone or Download the Source Code**:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+3.  **Run the Application**:
+    ```bash
+    npm start
+    ```
+    The app will open at [http://localhost:3000](http://localhost:3000)
 
-If you are not satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💡 Application Usage
 
-Instead, it will copy all the configuration files (webpack, Babel, ESLint, etc.) and transitive dependencies directly into your project, giving you full control over them. All commands except `eject` will still work, but they will point to the copied scripts, allowing you to tweak them. At this point, you are on your own.
+1.  **Navigation**: Use the menu to switch between Home, Tasks, and About.
+2.  **Adding Tasks**: Enter a task, select priority, and click Add.
+3.  **Editing/Deleting**: Edit or delete tasks using the buttons next to each item.
+4.  **Mark as Done/Undone**: Toggle task status with the Mark as Done/Undone button.
+5.  **Sorting/Filtering**: Use dropdowns to sort and filter your tasks.
+6.  **Clear Completed**: Remove all completed tasks with one click.
+7.  **About**: Learn more about the app and author in the About section.
 
-You do not have to ever use `eject`. The curated feature set is suitable for small and medium-sized deployments, and you shouldn't feel obligated to use this feature. However, Create React App provides this option for advanced customization when you are ready for it.
+## 🗂️ File Structure (Expected)
 
-## 📚 Learn More (About CRA & React)
+*   `src/App.js`: Main React component (UI, logic, navigation)
+*   `src/App.css`: Custom styles for the app
+*   `src/index.js`: Entry point for React
+*   `screenshots/`: Folder with conceptual screenshots and GIFs
+*   `README.md`: This documentation file
 
-You can learn more in the **[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)**.
+## 📝 Technical Notes
 
-To learn React, check out the **[React documentation](https://reactjs.org/)**.
+*   **Data Storage**: All tasks are stored in the browser's localStorage for privacy and offline use.
+*   **Responsive Design**: The app works on desktop and mobile browsers.
+*   **Unsplash Background**: The header uses a free Unsplash image for a modern look.
+*   **No Backend Required**: All logic runs in the browser.
 
-### Code Splitting
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions to **React ToDo Pro** are welcome! Ideas for new features, UI improvements, or bug fixes:
 
-### Making a Progressive Web App
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-## 🤝 Contributing (To This Project)
-
-Contributions to **My Awesome React App** (or your specific project name) are welcome! If you have ideas for new features, improvements, or bug fixes:
-
-1.  Fork this repository.
-2.  Create a new branch for your feature (`git checkout -b feature/YourAmazingFeature`).
+1.  Fork the repository.
+2.  Create a new branch for your feature (`git checkout -b feature/YourFeature`).
 3.  Make your changes.
-4.  Commit your changes (`git commit -m 'Add: YourAmazingFeature'`).
-5.  Push to the branch (`git push origin feature/YourAmazingFeature`).
+4.  Commit your changes (`git commit -m 'Feature: Add new feature'`).
+5.  Push to the branch (`git push origin feature/YourFeature`).
 6.  Open a Pull Request.
 
-Please ensure your code is well-commented and follows the project's established coding standards.
+Please ensure your code is well-commented and follows good React and JavaScript practices.
 
-## 📃 License (For This Project)
+## 📃 License
 
-This specific project (**My Awesome React App**) is licensed under the **MIT License**.
-(The Create React App framework itself also uses the MIT License, details of which can be found in its own documentation and repository.)
+This project is licensed under the **MIT License**.
 
-## 🧑‍💻 Author (Of This Project)
+## 📧 Contact
 
-This project was initiated and developed by **Adrian Lesniak**.
+Application concept by **Adrian Lesniak**.
+For questions or feedback, please open an issue on the GitHub repository or contact the repository owner.
 
 ---
-🚀 _Building amazing applications with React!_
+📅 _Organize your life with React ToDo Pro!_
